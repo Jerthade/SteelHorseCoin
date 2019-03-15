@@ -138,15 +138,9 @@ wget https://download.oracle.com/berkeley-db/db-4.8.30.zip unzip db-4.8.30.zip c
 
 Create a directory for the source code.
 
-cd ~/ mkdir source_code cd source_code
+cd
 
-git pull 
-
-Download the source code 
-
-Extract the tar file.
-
-tar -xzvf examplecoin-source.tar.gz
+git clone https://github.com/Jerthade/SteelHorseCoin.git steelhorsecoin 
 
 Execute the following commands to compile the daemon.
 

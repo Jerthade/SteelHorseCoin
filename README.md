@@ -41,7 +41,7 @@ Github URL	https://github.com/Jerthade/SteelHorseCoin.git
 
 ### Update your Ubuntu machine.
 
-'sudo apt-get update sudo apt-get upgrade'
+' sudo apt-get update sudo apt-get upgrade '
 
 ### Install the required dependencies.
 

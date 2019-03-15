@@ -14,21 +14,17 @@ sudo apt-get install build-essential libtool autotools-dev automake pkg-config l
 
 sudo apt-get install libminiupnpc-dev libzmq3-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev unzip
 
-Create a directory for the source code.
+# Create a directory for the source code.
 
-cd ~/ mkdir source_code cd source_code
+cd ~/ mkdir source_code
 
-Note: replace “examplecoin” with the name of your coin. Note: replace “6gs39011kick8xmqutpkrvi92xx5kwev4ykanlv1ls0ouuae5x” with the coinID of your coin.
-
-Download the source code from MyCoin. (Available for a paid coin)
-
-wget "https://dl.walletbuilders.com/download?customer=6gs39011kick8xmqutpkrvi92xx5kwev4ykanlv1ls0ouuae5x&filename=examplecoin-source.tar.gz" -O examplecoin-source.tar.gz
+cd source_code
 
 Extract the tar file.
 
 tar -xzvf examplecoin-source.tar.gz
 
-Build a 32-bit wallet
+# Build a 32-bit wallet
 
 Install the following dependencies.
 
@@ -52,7 +48,7 @@ Execute the following commands to compile the wallet.
 
 The compiling will take about 60 minutes depending on your system.
 
-Build a 64-bit wallet
+# Build a 64-bit wallet
 
 Install the following dependencies.
 
@@ -76,11 +72,11 @@ Execute the following commands to compile the wallet.
 
 The compiling will take about 60 minutes depending on your system.
 
-Your compiled wallet named examplecoin-qt.exe can be found in the folder “src/qt” when compiling is finished.
+Your compiled wallet named steelhorsecoin-qt.exe can be found in the folder “src/qt” when compiling is finished.
 
-Client tools examplecoin-cli.exe and examplecoin-tx.exe can be found in the folder “src” when compiling is finished.
+Client tools steelhorsecoin-cli.exe and steelhorsecoin-tx.exe can be found in the folder “src” when compiling is finished.
 
-Coin properties
+# Coin properties
 
 Compiling OS	Ubuntu 18.04 LTS
 

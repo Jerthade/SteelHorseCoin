@@ -1,0 +1,6 @@
+usr/local/bin/steelhorsecoin-qt usr/bin
+share/pixmaps/steelhorsecoin32.xpm usr/share/pixmaps
+share/pixmaps/steelhorsecoin16.xpm usr/share/pixmaps
+share/pixmaps/steelhorsecoin128.png usr/share/pixmaps
+debian/steelhorsecoin-qt.desktop usr/share/applications
+debian/steelhorsecoin-qt.protocol usr/share/kde4/services/

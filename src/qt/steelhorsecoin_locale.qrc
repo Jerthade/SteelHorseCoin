@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/steelhorsecoin_bg.qm</file>
+        <file alias="de">locale/steelhorsecoin_de.qm</file>
+        <file alias="en">locale/steelhorsecoin_en.qm</file>
+        <file alias="es">locale/steelhorsecoin_es.qm</file>
+        <file alias="fi">locale/steelhorsecoin_fi.qm</file>
+        <file alias="fr">locale/steelhorsecoin_fr.qm</file>
+        <file alias="it">locale/steelhorsecoin_it.qm</file>
+        <file alias="ja">locale/steelhorsecoin_ja.qm</file>
+        <file alias="nl">locale/steelhorsecoin_nl.qm</file>
+        <file alias="pl">locale/steelhorsecoin_pl.qm</file>
+        <file alias="pt">locale/steelhorsecoin_pt.qm</file>
+        <file alias="ru">locale/steelhorsecoin_ru.qm</file>
+        <file alias="sk">locale/steelhorsecoin_sk.qm</file>
+        <file alias="sv">locale/steelhorsecoin_sv.qm</file>
+        <file alias="vi">locale/steelhorsecoin_vi.qm</file>
+        <file alias="zh_CN">locale/steelhorsecoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/steelhorsecoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

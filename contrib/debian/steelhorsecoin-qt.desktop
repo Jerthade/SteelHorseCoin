@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SteelHorseCoin Core
+Comment=SteelHorseCoin P2P Cryptocurrency
+Comment[de]=Verbinde mit dem SteelHorseCoin peer-to-peer Netzwerk
+Comment[fr]=SteelHorseCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SteelHorseCoin, eşten eşe kriptografik sanal para birimi
+Exec=steelhorsecoin-qt %u
+Terminal=false
+Type=Application
+Icon=steelhorsecoin128
+MimeType=x-scheme-handler/steelhorsecoin;
+Categories=Office;Finance;

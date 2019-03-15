@@ -1,0 +1,22 @@
+[Unit]
+Description=SteelHorseCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=steelhorsecoincore
+Group=steelhorsecoincore
+
+Type=forking
+PIDFile=/var/lib/steelhorsecoind/steelhorsecoind.pid
+ExecStart=/usr/bin/steelhorsecoind -daemon -pid=/var/lib/steelhorsecoind/steelhorsecoind.pid \
+-conf=/etc/steelhorsecoincore/steelhorsecoin.conf -datadir=/var/lib/steelhorsecoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

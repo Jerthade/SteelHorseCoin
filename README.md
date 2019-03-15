@@ -112,7 +112,7 @@ Website URL	http://steelhorsecoin.com
 
 Github URL	https://github.com/Jerthade/SteelHorseCoin.git
 
-Use the following instructions to compile a daemon for Ubuntu Server 18.04.
+# Use the following instructions to compile a daemon for Ubuntu Server 18.04.
 
 Update your Ubuntu machine.
 

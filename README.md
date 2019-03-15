@@ -140,11 +140,9 @@ Create a directory for the source code.
 
 cd ~/ mkdir source_code cd source_code
 
-Note: replace “examplecoin” with the name of your coin. Note: replace “6gs39011kick8xmqutpkrvi92xx5kwev4ykanlv1ls0ouuae5x” with the coinID of your coin.
+git pull 
 
-Download the source code from MyCoin. (Available for a paid coin)
-
-wget "https://dl.walletbuilders.com/download?customer=6gs39011kick8xmqutpkrvi92xx5kwev4ykanlv1ls0ouuae5x&filename=examplecoin-source.tar.gz" -O examplecoin-source.tar.gz
+Download the source code 
 
 Extract the tar file.
 

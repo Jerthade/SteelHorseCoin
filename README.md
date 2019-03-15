@@ -49,7 +49,7 @@ Github URL	https://github.com/Jerthade/SteelHorseCoin.git
 
 'sudo apt-get install libminiupnpc-dev libzmq3-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev unzip'
 
-3. a### Install Berkeley DB
+### 3.a Install Berkeley DB
 
 'sudo add-apt-repository ppa:bitcoin/bitcoin' 
 
@@ -57,12 +57,12 @@ Github URL	https://github.com/Jerthade/SteelHorseCoin.git
 
 'sudo apt-get install libdb4.8-dev libdb4.8++-dev'
 
-3. b### or Install Berkeley DB from source code.
+### or 3.b Install Berkeley DB from source code.
 
 wget https://download.oracle.com/berkeley-db/db-4.8.30.zip unzip db-4.8.30.zip cd db-4.8.30 cd build_unix/ ../dist/configure --prefix=/usr/local --enable-cxx make sudo make install
 
 
-4. ### Now, compile our daemon
+### 4. Now, compile our daemon
 
 cd
 

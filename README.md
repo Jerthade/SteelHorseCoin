@@ -39,6 +39,10 @@ Github URL	https://github.com/Jerthade/SteelHorseCoin.git
 
 ## Use the following instructions to compile a daemon for Ubuntu Server 18.04.
 
+To set up the dns seed node, the parameter can be directly specified in chainparam.cpp about line 224
+
+vSeeds.push_back(CDNSSeedData("someaddress.com or IP addy", "someaddress.com"));
+
 ### 1. Update your Ubuntu machine.
 
 ' sudo apt-get update sudo apt-get upgrade '

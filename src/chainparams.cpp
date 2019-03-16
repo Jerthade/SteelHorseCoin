@@ -223,6 +223,8 @@ public:
 
         vSeeds.push_back(CDNSSeedData("walletbuilders.com", "node1.walletbuilders.com"));
         vSeeds.push_back(CDNSSeedData("66.42.90.179", "66.42.90.179"));
+	vSeeds.push_back(CDNSSeedData("45.63.4.47", "45.63.4.47"));
+	
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,63);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,64);

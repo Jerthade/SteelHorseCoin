@@ -63,8 +63,19 @@ vSeeds.push_back(CDNSSeedData("someaddress.com or IP addy", "someaddress.com"));
 
 ### or 3.b Install Berkeley DB from source code.
 
-wget https://download.oracle.com/berkeley-db/db-4.8.30.zip unzip db-4.8.30.zip cd db-4.8.30 cd build_unix/ ../dist/configure --prefix=/usr/local --enable-cxx make sudo make install
+wget https://download.oracle.com/berkeley-db/db-4.8.30.zip
 
+unzip db-4.8.30.zip
+
+cd db-4.8.30
+
+cd build_unix/
+
+../dist/configure --prefix=/usr/local --enable-cxx 
+
+make 
+
+sudo make install
 
 ### 4. Now, compile our daemon
 
@@ -92,6 +103,7 @@ Use the following instructions to cross-compile a wallet for Windows using Ubunt
 ### Update your Ubuntu machine.
 
 sudo apt-get update
+
 sudo apt-get upgrade
 
 ### Install the required dependencies.
@@ -114,11 +126,13 @@ sudo update-alternatives --config i686-w64-mingw32-g++
 Build mingw32.
 
 PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g')
+
 cd depends
 
 The following command will take +/- 30 minutes to complete.
 
 make HOST=i686-w64-mingw32
+
 cd ..
 
 Execute the following commands to compile the wallet.

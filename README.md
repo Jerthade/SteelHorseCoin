@@ -1,3 +1,24 @@
+This readme file will also contain the whitepaper for SteelHorseCoin
+
+SteelHorseCoin (StHC) will basically follow the primary principles originally set forth by Satoshi Nakamoto as set in his/their published white paper. https://bitcoin.org/bitcoin.pdf
+
+Although based on original bitcoin code, it has some differences in execution and recomendations of execution.
+
+StHC utilizes an X11 algorythm that supports masternodes. Masternodes allow some reward for supporting the network to be kept as a reward for helping the network. This is unlike some traditional coins where there is no reward for support. This should encourage longer term support.
+
+Unlike many other masternode coins, there was not a prerelease sell of masternodes for some outrageous price that could quite easily be a warning sign of a scamcoin. 
+
+There was also not an ICO (Initial Coin Offering). The amounts that others attempt to raise in an ICO has proven to be much more than what it actually costs to develop a working coin. This coin itself is proof of that. It took about 6 months for an individual to study, learn about, and combine the codes from all open sources and to integrate with the short term help of a professional developer.
+
+One of the primary premises is to develop trust to potential users in it's community. This is demonstrated to not be a simple scam coin by it's lack of ICO and masternode sales.
+
+If proof of stake to operate a masternode begins to appear to difficult to obtain, coins stored from the initial premine will be offered to prospective node operators that demonstrate to the community the willingness and ability to operate additional masternodes.
+
+It is the hopes of the founder of the original principles of this coin and this coin, that it will be adopted by the community of bikers, and other such freedom lovers to be a medium of trade, tips, and rewards for good deeds done and respectable support of merchandise that promotes the sound of freedom!
+
+
+
+
 # SteelHorseCoin
 
 ## Coin properties
